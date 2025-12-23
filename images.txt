@@ -7,3 +7,11 @@ nginx
 
 
 ubuntu:22.04
+ubuntu:24.04
+ubuntu:26.04
+
+summit4you/pytorch:2.3.0-cuda12.1-cudnn
+summit4you/babyslam-x86-cuda12-openmvs:22.04
+summit4you/babyslam-x86-vtk-9.4.2:22.04
+
+stateoftheartio/qt6:6.6-gcc-aqt
