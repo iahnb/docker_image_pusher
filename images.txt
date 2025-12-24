@@ -1,22 +1,31 @@
-nginx
+#nginx
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
+#ubuntu:22.04
+#ubuntu:24.04
+#ubuntu:26.04
 
-ubuntu:22.04
-ubuntu:24.04
-ubuntu:26.04
+#centos:7
+#centos:8
 
-centos:7
-centos:8
+#summit4you/pytorch:2.3.0-cuda12.1-cudnn
+#summit4you/babyslam-x86-cuda12-openmvs:22.04
+#summit4you/babyslam-x86-vtk-9.4.2:22.04
 
-summit4you/pytorch:2.3.0-cuda12.1-cudnn
-summit4you/babyslam-x86-cuda12-openmvs:22.04
-summit4you/babyslam-x86-vtk-9.4.2:22.04
+#stateoftheartio/qt6:6.6-gcc-aqt
 
-stateoftheartio/qt6:6.6-gcc-aqt
+#openjdk:27-ea-nanoserver
 
-openjdk:27-ea-nanoserver
+python:3.11-alpine
+
+alpine:3.23.2
+
+mysql:8.0-debian
+
+node:alpine3.23
+
+rust:alpine3.23
